@@ -6,19 +6,29 @@ package com.example.android.tourguideapp;
 
 public class Location {
 
-    /** String resource ID for the default translation of the word */
+    /**
+     * String resource ID for the default translation of the word
+     */
     private int mDefaultTranslationId;
 
-    /** String resource ID for the Miwok translation of the word */
+    /**
+     * String resource ID for the Miwok translation of the word
+     */
     private int mMiwokTranslationId;
 
-    /** Audio resource ID for the word */
+    /**
+     * Audio resource ID for the word
+     */
     private String mGeoResourceId;
 
-    /** Image resource ID for the word */
+    /**
+     * Image resource ID for the word
+     */
     private int mImageResourceId = NO_IMAGE_PROVIDED;
 
-    /** Constant value that represents no image was provided for this word */
+    /**
+     * Constant value that represents no image was provided for this word
+     */
     private static final int NO_IMAGE_PROVIDED = -1;
 
     /**
@@ -26,8 +36,8 @@ public class Location {
      *
      * @param defaultTranslationId is the string resource ID for the word in a language that the
      *                             user is already familiar with (such as English)
-     * @param miwokTranslationId is the string resource Id for the word in the Miwok language
-     * @param geoResourceId is the resource ID for the geo
+     * @param miwokTranslationId   is the string resource Id for the word in the Miwok language
+     * @param geoResourceId        is the resource ID for the geo
      */
     public Location(int defaultTranslationId, int miwokTranslationId, String geoResourceId) {
         mDefaultTranslationId = defaultTranslationId;
@@ -37,10 +47,11 @@ public class Location {
 
     /**
      * Create a new Location object.
-     *  @param defaultTranslationId is the string resource ID for the word in a language that the
+     *
+     * @param defaultTranslationId is the string resource ID for the word in a language that the
      *                             user is already familiar with (such as English)
-     * @param miwokTranslationId is the string resource Id for the word in the Miwok language
-     * @param imageResourceId is the drawable resource ID for the image associated with the word
+     * @param miwokTranslationId   is the string resource Id for the word in the Miwok language
+     * @param imageResourceId      is the drawable resource ID for the image associated with the word
      */
     public Location(int defaultTranslationId, int miwokTranslationId, int imageResourceId,
                     String geoResourceId) {

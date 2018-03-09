@@ -17,14 +17,16 @@ import java.util.ArrayList;
 
 public class WordAdapter extends ArrayAdapter<Location> {
 
-    /** Resource ID for the background color for this list of words */
+    /**
+     * Resource ID for the background color for this list of words
+     */
     private int mColorResourceId;
 
     /**
      * Create a new {@link WordAdapter} object.
      *
-     * @param context is the current context (i.e. Activity) that the adapter is being created in.
-     * @param locations is the list of {@link Location}s to be displayed.
+     * @param context         is the current context (i.e. Activity) that the adapter is being created in.
+     * @param locations       is the list of {@link Location}s to be displayed.
      * @param colorResourceId is the resource ID for the background color for this list of locations
      */
     public WordAdapter(Context context, ArrayList<Location> locations, int colorResourceId) {

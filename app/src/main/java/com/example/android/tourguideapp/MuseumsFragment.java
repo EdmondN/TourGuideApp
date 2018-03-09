@@ -5,7 +5,6 @@ package com.example.android.tourguideapp;
  */
 
 import android.content.Intent;
-
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -22,7 +21,6 @@ import java.util.ArrayList;
  */
 public class MuseumsFragment extends Fragment {
 
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -30,7 +28,7 @@ public class MuseumsFragment extends Fragment {
 
         // Create a list of locations
         final ArrayList<Location> locations = new ArrayList<Location>();
-        locations.add(new Location(R.string.museum,R.string.museum1,
+        locations.add(new Location(R.string.museum, R.string.museum1,
                 R.drawable.acropolismuseum, "geo:37.968471,23.728718?q=acropolis museum"));
         locations.add(new Location(R.string.museum, R.string.museum2,
                 R.drawable.archaeologicalmuseum, "geo:37.989072,23.732747?q=National Archaeological Museum"));

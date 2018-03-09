@@ -5,13 +5,6 @@ package com.example.android.tourguideapp;
  */
 
 import android.content.Intent;
-import android.media.AudioManager;
-import android.media.MediaPlayer;
-
-
-import android.content.Context;
-import android.media.AudioManager;
-import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -28,7 +21,6 @@ import java.util.ArrayList;
  */
 public class HotelsFragment extends Fragment {
 
-
     public HotelsFragment() {
         // Required empty public constructor
     }
@@ -40,13 +32,13 @@ public class HotelsFragment extends Fragment {
 
         // Create a list of locations
         final ArrayList<Location> locations = new ArrayList<Location>();
-        locations.add(new Location(R.string.hotel,R.string.hotel1,
+        locations.add(new Location(R.string.hotel, R.string.hotel1,
                 R.drawable.grandebretagne, "geo:37.976266, 23.735368?q=Hotel Grande Bretagne"));
-        locations.add(new Location(R.string.hotel,R.string.hotel2,
+        locations.add(new Location(R.string.hotel, R.string.hotel2,
                 R.drawable.electrapalace, "geo:37.973844, 23.731644?q=Electra Palace Athens"));
-        locations.add(new Location(R.string.hotel,R.string.hotel3,
+        locations.add(new Location(R.string.hotel, R.string.hotel3,
                 R.drawable.hilton, "geo:37.976471, 23.750398?q=Hilton Athens"));
-        locations.add(new Location(R.string.hotel,R.string.hotel4,
+        locations.add(new Location(R.string.hotel, R.string.hotel4,
                 R.drawable.kinggeorge, "geo:37.976385, 23.734949?q=King George Athens"));
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Location}s. The
