@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">Athens Tour Guide</string>
+
+    <!-- Category name for History [CHAR LIMIT=20] -->
+    <string name="category_archaeological">Sights</string>
+
+    <!-- Category name for the vocabulary words for Museums [CHAR LIMIT=20] -->
+    <string name="category_museums">Museums</string>
+
+    <!-- Category name for the vocabulary words for Hotels [CHAR LIMIT=20] -->
+    <string name="category_cultural">Cultural Centers</string>
+
+    <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
+    <string name="category_hotels">Hotels</string>
+
+    <string name="museum">Museum</string>
+    <string name="museum1">Acropolis</string>
+    <string name="museum2">National Archaeological</string>
+    <string name="museum3">Cycladic Art</string>
+    <string name="museum4">Benaki</string>
+
+    <string name="hotel">Hotel</string>
+    <string name="hotel1">Grande Bretagne</string>
+    <string name="hotel2">Electra Palace Athens</string>
+    <string name="hotel3">Hilton Athens</string>
+    <string name="hotel4">King George Athens</string>
+
+    <string name="sight">Athens</string>
+    <string name="sight1">Acropolis</string>
+    <string name="sight2">Parthenon</string>
+    <string name="sight3">Temple of Olympian Zeus</string>
+    <string name="sight4">Odeon of Herodes Atticus</string>
+
+    <string name="cultural">Cultural Center</string>
+    <string name="cultural1">Stavros Niarchos Foundation</string>
+    <string name="cultural2">Onassis</string>
+    <string name="cultural3">Megaro Moussikis</string>
+    <string name="cultural4">Planitario Evgenidio Idrima</string>
+
+
+</resources>
